@@ -29,15 +29,20 @@ class Base:
     def create_banner(self, game_name: str):
         # Create banner with game name
         banner = f"""{Fore.GREEN}
-   ___                   _      __  __      _                 _ 
-  / _ \ _ _ _ _ _ _  ___| |__  |  \/  |__ _| |_  _ __ _  _ __| |
- | (_) | '_| '_| ' \/ _ \ '_ \ | |\/| / _` | ' \| '  \ || / _` |
-  \___/|_| |_| |_||_\___/_.__/ |_|  |_\__,_|_||_|_|_|_\_,_\__,_|
+  _______  _______           _______  ______  
+(  ____ )(  ____ \|\     /|(  ___  )(  __  \ 
+| (    )|| (    \/( \   / )| (   ) || (  \  )
+| (____)|| (__     \ (_) / | (___) || |   ) |
+|     __)|  __)     \   /  |  ___  || |   | |
+| (\ (   | (         ) (   | (   ) || |   ) |
+| ) \ \__| (____/\   | |   | )   ( || (__/  )
+|/   \__/(_______/   \_/   |/     \|(______/ 
+                                             
                                                                 
-    Auto Claim Bot For {game_name} - Orrnob's Drop Automation
+    Auto Claim Bot For {game_name} - Rio's automation
     Author  : Orrnob Mahmud
-    Github  : https://github.com/OrrnobMahmud
-    Telegram: https://t.me/verifiedcryptoairdops
+    Github  : https://github.com/riology
+    Telegram: https://t.me/rio_logy
         {Style.RESET_ALL}"""
         return banner
 
